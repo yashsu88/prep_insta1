@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Header</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+
+.profile-header { position: relative; width: 100%; }
+
+.cover-photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -80px; /* Adjust as needed */
+    padding: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-details {
+    margin-left: 20px;
+}
+
+.user-details h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.user-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+    </style>
+</head>
+<body>
+    <header class="profile-header">
+        <div class="cover-photo">
+            <img src="cover-photo-placeholder.jpg" alt="Cover Photo">
+        </div>
+        <div class="profile-info">
+            <div class="profile-picture">
+                <img src="profile-picture-placeholder.jpg" alt="Profile Picture">
+            </div>
+            <div class="user-details">
+                <h1>Suyash</h1>
+                <p>Web Developer | Tech Enthusiast | Blogger</p>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
